@@ -1,25 +1,60 @@
+//////////////////////////
+/*Input:Enter element 0 10
+        Enter element 1 20
+*Output:
+We are running setVal now
+We are running show now
+10
+20
+*Description:Implementation of Array as ADT (Abstract Data Type) using structure
+*Date:08-August-2021
+*Author:Shruti Nahar*/
+/////////////////////////////
 #include<stdio.h>
 #include<stdlib.h>
-struct array
+struct myArray
 {
-    int used_size;
     int total_size;
-    int*p;
+    int used_size;
+    int *ptr;
 };
-int main()
-{
-    struct array s;
-    int size;
-    (s*)used_size=size;
-    (s*)p=(int*)malloc(size*sizeof(int));
-    printf("Enter the total size ");
-    scanf("%d",s->total_size);
-    printf("Enter the used size ");
-    scanf("%d",s->used_size);
-    printf("/n--------------------------------------\n");
-    printf("TOTAL SIZE: %d",s->total_size);
-    printf("\nUSED SIZE: %d",s->used_size);
-    printf("\nADDRESS: %d",s->p);
+ 
+void createArray(struct myArray * a, int tSize, int uSize){
+    // (*a).total_size = tSize;
+    // (*a).used_size = uSize;
+    // (*a).ptr = (int *)malloc(tSize * sizeof(int));
+ 
+    a->total_size = tSize;
+    a->used_size = uSize;
+    a->ptr = (int *)malloc(tSize * sizeof(int));
+}
+ 
+void show(struct myArray *a){
+    for (int i = 0; i < a->used_size; i++)
+    {
+        printf("%d\n", (a->ptr)[i]);
+    }
+}
+ 
+void setVal(struct myArray *a){
+    int n;
+    for (int i = 0; i < a->used_size; i++)
+    {
+        printf("Enter element %d", i);
+        scanf("%d", &n);
+        (a->ptr)[i] = n;
+    }
     
-    
+}
+ 
+int main(){
+    struct myArray marks;
+    createArray(&marks, 10, 2);
+    printf("We are running setVal now\n");
+    setVal(&marks);
+ 
+    printf("We are running show now\n");
+    show(&marks);
+ 
+    return 0;
 }
