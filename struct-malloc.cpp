@@ -22,7 +22,7 @@ Do you want to continue!!!! 3
 *Description:malloc using Structure
 *Author:Shruti Nahar
 *Date:-18-July-2021*/
-/////////////////////////////
+//////////////////////////////
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
