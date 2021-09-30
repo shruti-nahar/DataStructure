@@ -1,3 +1,13 @@
+/*input:-s="ABC" 
+output:-  ABC
+          ACB
+          BAC
+          BCA
+          CBA
+          CAB
+description:The task is to display all the permutation of the string
+date: 30-09-2021
+Author name: Shruti Nahar*/
 #include<iostream>
 using namespace std;
 void permutae(string a,int l,int r)
