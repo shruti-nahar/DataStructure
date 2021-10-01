@@ -1,3 +1,16 @@
+/*input:- --
+output:- 
+size is 4
+Capcity is 4
+Empty or not 0
+Display First element 10
+Display Last element 40
+Element at 2 index
+
+description: Implementation of vector in STL
+date: 01-10-2021
+Author name: Shruti Nahar*/
+
 #include<iostream>
 #include<vector>
 using namespace std;
