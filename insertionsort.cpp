@@ -1,3 +1,10 @@
+/*input:- arr[]={8,7,39,30,54}
+output:-  After sorting   
+          7 8 30 39 54
+description: Implementation of insertion sort
+date: 01-10-2021
+Author name: Shruti Nahar*/
+
 #include<iostream>
 using namespace std;
 void insertionsort(int arr[],int n)
