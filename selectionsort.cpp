@@ -1,3 +1,9 @@
+/*input:- arr[]={10,30,45,7,8,9}
+output:-  After sorting   
+          7 8 9 10 30 45 
+description: Implementation of selection sort
+date: 01-10-2021
+Author name: Shruti Nahar*/
 #include<iostream>
 using namespace std;
 void selectionsort(int arr[],int n)
