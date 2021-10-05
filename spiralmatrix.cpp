@@ -1,3 +1,24 @@
+/*input:-Enter the row and column 
+2
+3
+Enter the elements of array 
+10
+20
+30
+40
+50
+60
+output:- Matrix is 
+         10 20 30
+         40 50 60
+  
+         10 20 30
+         60
+         50 40
+description: Implementation of spiral matrix
+date: 05-10-2021
+Author name: Shruti Nahar*/
+
 #include<iostream>
 using namespace std;
 signed main()
