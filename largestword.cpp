@@ -4,7 +4,7 @@ output:-
          Maximum length of word is 5
          dying
 description: The task is too find the Maximum length word from the sentence
-date: 04-10-2021
+date: 05-10-2021
 Author name: Shruti Nahar*/
 #include<iostream>
 using namespace std;
