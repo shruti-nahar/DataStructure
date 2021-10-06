@@ -1,7 +1,7 @@
 /*input:-string s = "zyxbcd"
 output:- YES
 description: check if the given string is rverse bitonic string or not
-date: 05-10-2021
+date: 06-10-2021
 Author name: Shruti Nahar*/
 
 #include<iostream>
