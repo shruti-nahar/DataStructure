@@ -1,7 +1,7 @@
 /*input:-arr[]={10,16,4,3,9}
 output:- After Quick sort 3 4 9 10 16 
 description: Implementation of Quick Sort
-date: 01-10-2021
+date: 16-10-2021
 Author name: Shruti Nahar*/
 #include <iostream>
 using namespace std;
