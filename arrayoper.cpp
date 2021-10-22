@@ -66,7 +66,7 @@ Do you want to continue with Operations!!!!!!  n
 ---------------------Thankyou-----------------------------
 *Description :Operation Performed on Array 
 *Date: 6-July-2021
-*Author: Shruti Nahar*/
+*Author: Shruti Nahar */
 //////////////////////////////////////
 #include <iostream>
 using namespace std;
